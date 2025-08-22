@@ -1,0 +1,59 @@
+.carousal-container {
+    background-color: #280A3E;
+    /* background-color: #0D1164; */
+}
+
+.carousel-item, .card {
+    background-color: #0D1164;
+    border: none;
+}
+
+.card-body h5 {
+    font-size: 30px;
+    /* text-align: center; */
+    color: #fff;
+}
+
+.card-body p {
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+    word-spacing: -2px;
+}
+
+.card img{
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }50%{
+        transform: translateY(-5px);
+
+    }100%{
+        transform: translateY(0px);
+    }
+}
+
+strong{
+    margin-right: 2px;
+}
+
+@media (max-width:500px) {
+    .card-body h5 {
+        font-size: 14px;
+        /* text-align: center; */
+    }
+
+    .card-body p {
+        font-size: 12px;
+        /* text-align: center; */
+        word-spacing: -1.5px;
+    }
+
+    .card-body .season-time {
+        font-size: 10px !important;
+    }
+
+}

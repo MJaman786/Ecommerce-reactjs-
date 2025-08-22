@@ -1,0 +1,18 @@
+.dropdown-menu{
+    background-color: #212529;
+    /* border: 1px solid rgba(224, 255, 255, 0.432); */
+}
+
+.dropdown-menu .dropdown-item{
+    color: #fff;
+    /* transition: all 0.5s ease-in-out !important; */
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #212529;
+    color: #ffb415;
+}
+
+a:focus{
+    color: #ffb415 !important;
+}
