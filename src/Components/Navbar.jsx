@@ -2,7 +2,7 @@ import "../Components/Navbar.css"
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-dark fixed-top">
+            <nav className="navbar navbar-expand-lg text-light bg-dark fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand text-light" href="#">EStore</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style={{ boxShadow: "none",outline:"none", border:"none" }}>
